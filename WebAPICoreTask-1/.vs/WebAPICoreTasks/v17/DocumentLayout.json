@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|c:\\users\\orange\\desktop\\webapicore\\webapicoretasks\\webapicoretasks\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|solutionrelative:webapicoretasks\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|c:\\users\\orange\\desktop\\webapicore\\webapicoretasks\\webapicoretasks\\controllers\\productcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|solutionrelative:webapicoretasks\\controllers\\productcontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|c:\\users\\orange\\desktop\\webapicore\\webapicoretasks\\webapicoretasks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|solutionrelative:webapicoretasks\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|c:\\users\\orange\\desktop\\webapicore\\webapicoretasks\\webapicoretasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|solutionrelative:webapicoretasks\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|c:\\users\\orange\\desktop\\webapicore\\webapicoretasks\\webapicoretasks\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6F939BE-9398-4424-B4C2-48699390A0FF}|WebAPICoreTasks\\WebAPICoreTasks.csproj|solutionrelative:webapicoretasks\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController1.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Controllers\\ProductController1.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTasks\\Controllers\\ProductController1.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Controllers\\ProductController1.cs",
+              "RelativeToolTip": "WebAPICoreTasks\\Controllers\\ProductController1.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA7wBoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:49:10.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTasks\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "WebAPICoreTasks\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:57:24.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPICoreTasks\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\appsettings.json",
+              "RelativeToolTip": "WebAPICoreTasks\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T13:55:56.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTasks\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Program.cs",
+              "RelativeToolTip": "WebAPICoreTasks\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:55:38.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTasks\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "WebAPICoreTasks\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:54:58.048Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
