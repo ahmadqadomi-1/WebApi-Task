@@ -8276,11 +8276,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\WebAPICoreTasks.csproj",
+      "projectUniqueName": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-1\\WebAPICoreTasks\\WebAPICoreTasks.csproj",
       "projectName": "WebAPICoreTasks",
-      "projectPath": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\WebAPICoreTasks.csproj",
+      "projectPath": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-1\\WebAPICoreTasks\\WebAPICoreTasks.csproj",
       "packagesPath": "C:\\Users\\Orange\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebAPICoreTasks\\WebAPICoreTasks\\obj\\",
+      "outputPath": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-1\\WebAPICoreTasks\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

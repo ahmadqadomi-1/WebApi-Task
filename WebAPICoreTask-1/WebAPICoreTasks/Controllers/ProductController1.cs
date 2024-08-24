@@ -18,15 +18,7 @@ namespace WebAPICoreTasks.Controllers
         [HttpGet]
         public IActionResult Product()
         {
-            var Products = _db.Products.Select(p => new
-            {
-                p.ProductId,
-                p.ProductImage,
-                p.ProductName,
-                p.Description,
-                p.Category,
-                p.CategoryId
-            });
+            var Products = _db.Products.ToList();
 
             return Ok(Products);
         }
@@ -35,7 +27,15 @@ namespace WebAPICoreTasks.Controllers
 
         public IActionResult ProductById(int id)
         {
-            var Products = _db.Products.Find(id);
+            var Products = _db.Products.Select(p => new
+            {
+                p.ProductId,
+                p.ProductImage,
+                p.ProductName,
+                p.Description,
+                p.Category,
+                p.CategoryId
+            }); ;
             return Ok(Products);
         }
     }

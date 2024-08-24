@@ -15,21 +15,21 @@ namespace WebAPICoreTasks.Controllers
         
         }
         [HttpGet]
-        public IActionResult Get() { 
-        var Categories= _db.Categories.select(s => new
-        {
-            s.CategoryId,
-            s.CategoryName,
-            s.CategoryImage
-        });
+        public IActionResult Get() {
+            var Categories = _db.Categories.ToList();
             return Ok(Categories);
         }
 
 
         [HttpGet("{IDName}")]
         public IActionResult GetById(int id) {
-        var Categories = _db.Categories.Find(id);
-        return Ok(Categories);
+        var Categories = _db.Categories.Select(s => new
+        {
+            s.CategoryId,
+            s.CategoryName,
+            s.CategoryImage
+        });
+            return Ok(Categories);
         }
 
         
