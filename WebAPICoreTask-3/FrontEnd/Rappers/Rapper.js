@@ -10,7 +10,7 @@ async function getAllRappers() {
         data.forEach(rapper => {
             cardContainer.innerHTML += `
             <div class="card" style="width: 18rem;">
-                <img src="../Images/${rapper.rapperImage}" class="card-img-top" alt="${rapper.rapperImage} (Image not found)">
+                <img src="../Images/${rapper.rapperImage}" style="width:100%; height: 255.53px;" class="card-img-top" alt="${rapper.rapperImage} (Image not found)">
                 <div class="card-body">
                     <h5 class="card-title">${rapper.rapperName}</h5>
                     <button class="btn btn-primary" value="${rapper.rapperId}" onclick="saveId(this)">View Tracks</button>
