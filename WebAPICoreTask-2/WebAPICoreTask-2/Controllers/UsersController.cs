@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPICoreTask_2.Models;
 
 namespace WebAPICoreTask_2.Controllers
@@ -41,21 +42,22 @@ namespace WebAPICoreTask_2.Controllers
         }
 
         //Error Maybe  Of The Relation
-        //[HttpDelete]
-        //[Route("Delete one User By ID /{id}")]
-        //public IActionResult Delete(int id)
-        //{
-        //    if (id != 0)
-        //    {
-        //        var bb = _db.Users.FirstOrDefault(c => c.UserId == id);
-        //        _db.Categories.Remove(bb);
-        //        _db.SaveChanges();
-        //        return Ok(bb);
-        //    }
-        //    else
-        //    {
-        //        return BadRequest();
-        //    }
-        //}
+        [HttpDelete]
+        [Route("Delete one User By ID /{id}")]
+        public IActionResult Delete(int id)
+        {
+            if (id != 0)
+            {
+                var bb = _db.Users.Include(U=> U.Orders).FirstOrDefault(c => c.UserId == id);
+                if (bb.Orders.Any())
+                {
+                    return BadRequest("Error");
+                }
+                _db.Users.Remove(bb);
+                _db.SaveChanges();
+                return Ok(bb);
+            }
+            return Ok();
+        }
     }
 }

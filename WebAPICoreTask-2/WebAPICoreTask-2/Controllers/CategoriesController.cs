@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPICoreTask_2.Models;
 
 namespace WebAPICoreTask_2.Controllers
@@ -15,7 +16,7 @@ namespace WebAPICoreTask_2.Controllers
         }
 
         [HttpGet]
-        [Route ("get all Categories")]
+        [Route ("get")]
         public IActionResult Catt ()
         {
             var Cate = _db.Categories.ToList();
@@ -25,7 +26,7 @@ namespace WebAPICoreTask_2.Controllers
         [Route ("Get one Category By ID /{id:int:min(5)}")]
         public IActionResult Cat(int id) 
         {
-            var SS = _db.Categories.Find();
+            var SS = _db.Categories.Find(id);
             return Ok(SS);
         }
 
@@ -42,14 +43,16 @@ namespace WebAPICoreTask_2.Controllers
         {
             if (id != 0)
             {
-                var DD = _db.Categories.FirstOrDefault(c => c.CategoryId == id);
+                var DD = _db.Categories.Include(o => o.Products).FirstOrDefault(c => c.CategoryId == id);
+                if (DD.Products.Any())
+                {
+                    return BadRequest("Error");
+                }
                 _db.Categories.Remove(DD);
                 _db.SaveChanges();
                 return Ok(DD);
-            } else
-            {
-                return BadRequest();
             }
+            return Ok();
         }
     }
 }

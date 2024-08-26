@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPICoreTask_2.Models;
 
 namespace WebAPICoreTask_2.Controllers
@@ -27,24 +28,25 @@ namespace WebAPICoreTask_2.Controllers
             return Ok(SS);
         }
         //Maybe fail
-        [HttpGet("Get one Products By Name /{id:int:max(5)}")]
+        [HttpGet("Get one Products By Name /{id:alpha:maxlength(5)}")]
         public IActionResult Categ(string name)
         {
             var AA = _db.Products.Where(c => c.ProductName == name).ToList();
             return Ok(AA);
         }
 
-        [HttpDelete("Delete one Product By ID")] 
+        [HttpDelete("Delete one Product By ID")]
         public IActionResult Delete(int id)
         {
             if (id != 0)
             {
-                var PP = _db.Products.FirstOrDefault(c => c.ProductId == id);
+                var PP = _db.Products.Include(C => C.Category).FirstOrDefault(c => c.ProductId == id);
+               
                 _db.Products.Remove(PP);
                 _db.SaveChanges();
                 return Ok(PP);
             }
-                return Ok();  
+            return Ok();
         }
     }
 }

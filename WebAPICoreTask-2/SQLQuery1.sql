@@ -7,11 +7,11 @@ CREATE TABLE Categories (
 );
 INSERT INTO Categories (CategoryName, CategoryImage)
 VALUES 
-('Electronics', 'electronics_image.jpg'),
-('Clothing', 'clothing_image.jpg'),
-('Home Appliances', 'home_appliances_image.jpg'),
-('Books', 'books_image.jpg'),
-('Toys', 'toys_image.jpg');
+('Electronics', 'https://i1.sndcdn.com/artworks-000480252444-q5nocl-t500x500.jpg'),
+('Clothing', 'https://i1.sndcdn.com/artworks-000386097702-iqikhu-t240x240.jpg'),
+('Home Appliances', 'https://mir-s3-cdn-cf.behance.net/projects/404/2f673799249051.5eee8d8cd521f.png'),
+('Books', 'https://i1.sndcdn.com/artworks-000407211156-ylwh3a-t500x500.jpg'),
+('Toys', 'https://i1.sndcdn.com/artworks-ID5A1rQliUT33oEJ-7ItCAw-t240x240.jpg');
 
 
 CREATE TABLE Products (
@@ -84,7 +84,7 @@ VALUES
 (5, 5);
 
 
-
+select * from Categories;
 select * from Orders;
 select * from Users;
 select * from Order_Table;

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebAPICoreTask_2.Models;
 
 namespace WebAPICoreTask_2.Controllers
@@ -36,17 +37,21 @@ namespace WebAPICoreTask_2.Controllers
 
         //Error Maybe  Of The Relation
 
-        //[HttpDelete("Delete one Order By ID")]
-        //public IActionResult Delete(int id)
-        //{
-        //    if (id != 0)
-        //    {
-        //        var OoO = _db.Orders.Where(o =>o.OrderId == id).FirstOrDefault();
-        //        _db.Products.Remove(OoO);
-        //        _db.SaveChanges();
-        //        return Ok(OoO);
-        //    }
-        //    return Ok();
-        //}
+        [HttpDelete("Delete one Order By ID")]
+        public IActionResult Delete(int id)
+        {
+
+
+           
+              
+            if (id != 0)
+            {
+                var OoO = _db.Orders.Include(a => a.User).FirstOrDefault(o => o.OrderId == id);
+                _db.Orders.Remove(OoO);
+                _db.SaveChanges();
+                return Ok(OoO);
+            }
+            return Ok();
+        }
     }
 }
