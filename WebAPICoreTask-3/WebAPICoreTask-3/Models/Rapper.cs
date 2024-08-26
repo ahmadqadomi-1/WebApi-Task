@@ -12,4 +12,5 @@ public partial class Rapper
     public string? RapperImage { get; set; }
 
     public virtual ICollection<Track> Tracks { get; set; } = new List<Track>();
+
 }

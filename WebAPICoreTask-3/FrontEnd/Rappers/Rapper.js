@@ -25,6 +25,7 @@ async function getAllRappers() {
 function saveId(button) {
     let GetId = button.value;
     localStorage.setItem("rapperId", GetId);
+    window.location.href = "../Tracks/track.html"; 
 }
 getAllRappers();
 saveId();

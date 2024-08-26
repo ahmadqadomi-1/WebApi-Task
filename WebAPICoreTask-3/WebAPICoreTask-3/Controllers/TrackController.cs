@@ -21,12 +21,18 @@ namespace WebAPICoreTask_3.Controllers
         }
 
         [HttpGet]
-        [Route("GetOneTrackByID /{id}")]
+        [Route("GetAllTracksForOneRaper/{id}")]
         public IActionResult TT(int id)
         {
-            var Ta = _db.Tracks.Find(id);
+            var Ta = _db.Tracks.Where(a => a.RapperId == id).ToList();
             return Ok(Ta);
         }
 
+        [HttpGet ("GetAllTracksDesc")]
+        public IActionResult GetSortedTracks()
+        {
+            var Trackss = _db.Tracks.OrderByDescending(p => p.Duration );
+            return Ok(Trackss.ToList());
+        }
     }
 }

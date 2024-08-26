@@ -1,6 +1,8 @@
 async function getAllTracks() {
-    let url = "https://localhost:44389/api/Track/GetAllTracks";
-    
+    var id=localStorage.getItem("rapperId");
+    let url = `https://localhost:44389/api/Track/GetAllTracksForOneRaper/${id}`;
+;
+   
     try {
         let response = await fetch(url);
         if (!response.ok) {
@@ -26,7 +28,7 @@ async function getAllTracks() {
                     <li class="list-group-item">${track.trackId}</li>
                 </ul>
                 <div class="card-body">
-                    <button value="${track.trackId}" onclick="saveId(this)" class="btn btn-primary">Add To Playlist</button>
+                    <button onclick="saveId(${track.trackId})" class="btn btn-primary">Add To Playlist</button>
                 </div>
             </div>
             `;
@@ -37,9 +39,8 @@ async function getAllTracks() {
     }
 }
 
-function saveId(button) {
-    let trackId = button.value;
-    localStorage.setItem("trackId", trackId);
+function saveId(id) {
+    localStorage.setItem("trackId", id);
 }
 
 
