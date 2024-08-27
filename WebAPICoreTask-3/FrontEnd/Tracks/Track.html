@@ -45,8 +45,23 @@
     </nav>
 
     <h1 class="text-center mt-4">Tracks Page</h1>
-    <div id="Container" class="container mt-4" style="display: flex;flex-direction: row;"></div>
-
+    <div id="Container" class="container mt-4" style="display: flex; flex-direction: row;">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Track Image</th>
+                    <th>Track Name</th>
+                    <th>Description</th>
+                    <th>Duration</th>
+                    <th>Rapper ID</th>
+                    <th>Track ID</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="trackTableBody">
+            </tbody>
+        </table>
+    </div>
     <script src="Track.js"></script>
 </body>
 </html>

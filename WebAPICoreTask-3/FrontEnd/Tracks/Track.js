@@ -1,8 +1,7 @@
 async function getAllTracks() {
-    var id=localStorage.getItem("rapperId");
+    var id = localStorage.getItem("rapperId");
     let url = `https://localhost:44389/api/Track/GetAllTracksForOneRaper/${id}`;
-;
-   
+
     try {
         let response = await fetch(url);
         if (!response.ok) {
@@ -10,28 +9,22 @@ async function getAllTracks() {
         }
         
         let data = await response.json();
-        let cardContainer = document.getElementById("Container");
-        console.log(data);
-
+        let tableBody = document.getElementById("trackTableBody");
 
         data.forEach(track => {
-            cardContainer.innerHTML += `
-            <div class="card mb-4" style="width: 18rem;">
-                <img src="../Images/${track.trackImage}" class="card-img-top" alt="${track.trackImage} (Image Not Found)">
-                <div class="card-body">
-                    <h5 class="card-title">${track.trackName}</h5>
-                    <p class="card-text">${track.description}</p>
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">${track.duration}</li>
-                    <li class="list-group-item">${track.rapperId}</li>
-                    <li class="list-group-item">${track.trackId}</li>
-                </ul>
-                <div class="card-body">
-                    <button onclick="saveId(${track.trackId})" class="btn btn-primary">Add To Playlist</button>
-                </div>
-            </div>
+            let row = document.createElement("tr");
+
+            row.innerHTML = `
+                <td><img src="../Images/${track.trackImage}" alt="${track.trackImage}" style="width: 100px; height: auto;"></td>
+                <td>${track.trackName}</td>
+                <td>${track.description}</td>
+                <td>${track.duration}</td>
+                <td>${track.rapperId}</td>
+                <td>${track.trackId}</td>
+                <td><button onclick="saveId(${track.trackId})" class="btn btn-primary">Add To Playlist</button></td>
             `;
+
+            tableBody.appendChild(row);
         });
 
     } catch (error) {
@@ -43,6 +36,4 @@ function saveId(id) {
     localStorage.setItem("trackId", id);
 }
 
-
 getAllTracks();
-saveId();
