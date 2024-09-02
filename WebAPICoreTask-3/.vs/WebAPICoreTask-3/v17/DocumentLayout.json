@@ -3,19 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\controllers\\rappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\controllers\\rappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\controllers\\playlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\models\\playlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\dtos\\playlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\dtos\\playlistrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\dtos\\playlisttracksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\dtos\\playlisttracksrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orange\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\dtos\\trackrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\dtos\\trackrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\controllers\\rappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\controllers\\rappercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\dtos\\rapperrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,12 +43,27 @@
       "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\dtos\\addtracktolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\dtos\\addtracktolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\controllers\\playlisttrackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\controllers\\playlisttrackscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\models\\playlisttrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\models\\playlisttrack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Orange\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|solutionrelative:webapicoretask-3\\models\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B35BB14C-8928-48CB-A734-1482DFC6E064}|WebAPICoreTask-3\\WebAPICoreTask-3.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\webapicoretask-3\\webapicoretask-3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -49,47 +77,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RapperController.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
-              "ToolTip": "C:\\Users\\Orange\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAApwEoAAAAeAAAA",
+              "Title": "PlayListRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\PlayListRequest.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\DTOs\\PlayListRequest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\PlayListRequest.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\DTOs\\PlayListRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T23:00:47.967Z"
+              "WhenOpened": "2024-08-30T20:11:54.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RapperRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
-              "RelativeDocumentMoniker": "WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
-              "RelativeToolTip": "WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "DocumentIndex": 10,
+              "Title": "AddTrackToList.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\AddTrackToList.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\DTOs\\AddTrackToList.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\AddTrackToList.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\DTOs\\AddTrackToList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T14:33:52.975Z"
+              "WhenOpened": "2024-08-30T20:56:47.127Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayListController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\PlayListController.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Controllers\\PlayListController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\PlayListController.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\Controllers\\PlayListController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAlwCMAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T18:16:24.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayListTracksRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\PlayListTracksRequest.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\DTOs\\PlayListTracksRequest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\PlayListTracksRequest.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\DTOs\\PlayListTracksRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T15:09:54.845Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "PlayList.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\PlayList.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Models\\PlayList.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\PlayList.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\Models\\PlayList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T15:43:33.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Program.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T20:23:57.358Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "TrackController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\TrackController.cs",
               "RelativeDocumentMoniker": "WebAPICoreTask-3\\Controllers\\TrackController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\TrackController.cs",
               "RelativeToolTip": "WebAPICoreTask-3\\Controllers\\TrackController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowD8AAAAIAAAA",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwEwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T20:25:26.205Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "TrackRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T11:11:46.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Rapper.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\Rapper.cs",
               "RelativeDocumentMoniker": "WebAPICoreTask-3\\Models\\Rapper.cs",
@@ -101,32 +193,79 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
+              "Title": "RapperRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\DTOs\\RapperRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-26T14:33:52.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RapperController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
               "RelativeDocumentMoniker": "WebAPICoreTask-3\\Controllers\\RapperController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
               "RelativeToolTip": "WebAPICoreTask-3\\Controllers\\RapperController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAYwD8AAAAJAAAA",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:24:51.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-25T20:24:51.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrackRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
-              "RelativeDocumentMoniker": "WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
-              "RelativeToolTip": "WebAPICoreTask-3\\DTOs\\TrackRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "DocumentIndex": 12,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T11:11:46.931Z"
+              "WhenOpened": "2024-08-25T20:23:39.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "PlayListTracksController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\PlayListTracksController.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Controllers\\PlayListTracksController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\PlayListTracksController.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\Controllers\\PlayListTracksController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T14:56:21.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayListTrack.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\PlayListTrack.cs",
+              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Models\\PlayListTrack.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\PlayListTrack.cs",
+              "RelativeToolTip": "WebAPICoreTask-3\\Models\\PlayListTrack.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T15:10:03.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RapperController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
+              "ToolTip": "C:\\Users\\Orange\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\2882b66f1a261b0b3ca2e06cf35f0554444a171fb039c595d35a3119ca75da7e\\WebAPICoreTask-3\\WebAPICoreTask-3\\Controllers\\RapperController.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAApwEoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T23:00:47.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Track.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\Track.cs",
               "RelativeDocumentMoniker": "WebAPICoreTask-3\\Models\\Track.cs",
@@ -138,31 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MyDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\MyDbContext.cs",
-              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Models\\MyDbContext.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Models\\MyDbContext.cs",
-              "RelativeToolTip": "WebAPICoreTask-3\\Models\\MyDbContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:23:39.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Program.cs",
-              "RelativeDocumentMoniker": "WebAPICoreTask-3\\Program.cs",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\Program.cs",
-              "RelativeToolTip": "WebAPICoreTask-3\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T20:23:57.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\WebAPICoreTask-3\\WebAPICoreTask-3\\appsettings.json",
               "RelativeDocumentMoniker": "WebAPICoreTask-3\\appsettings.json",

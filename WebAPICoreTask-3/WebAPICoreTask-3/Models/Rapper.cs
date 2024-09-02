@@ -13,4 +13,5 @@ public partial class Rapper
 
     public virtual ICollection<Track> Tracks { get; set; } = new List<Track>();
 
+    public virtual ICollection<User> Users { get; set; } = new List<User>();
 }

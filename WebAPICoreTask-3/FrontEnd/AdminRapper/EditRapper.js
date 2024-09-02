@@ -1,45 +1,65 @@
+function getQueryParams() {
+const params = new URLSearchParams(window.location.search);
+
+let paramsObj = {};
+
+for (const [key, value] of params.entries()) {
+    paramsObj[key] = value;
+}
+
+return paramsObj;
+}
+
+const queryParams = getQueryParams();
+
 document.addEventListener("DOMContentLoaded", async () => {
-    const rapperId = localStorage.getItem("rapperId"); 
+const rapperId = queryParams.rapperId;
+if (rapperId) {
+    try {
+    const response = await fetch(
+        `https://localhost:44389/api/Rapper/UpdateTheRapperByID/${rapperId}`
+    );
+    if (!response.ok) throw new Error("Failed to fetch rapper data");
 
-    if (rapperId) {
-        try {
-            const response = await fetch(`https://localhost:44389/api/Rapper/UpdateTheRapperByID/${rapperId}`);
-            if (!response.ok) throw new Error('Failed to fetch rapper data');
+    const data = await response.json();
 
-            const data = await response.json();
-
-            document.getElementById("RapperName").value = data.name;
-        } catch (error) {
-            console.error("Error fetching rapper data:", error);
-        }
-    } else {
-        alert("No rapper ID found. Please select a rapper to edit.");
+    document.getElementById("RapperName").value = data.name;
+    } catch (error) {
+    console.error("Error fetching rapper data:", error);
     }
+} else {
+    alert("No rapper ID found. Please select a rapper to edit.");
+}
 });
 
-document.getElementById("updateRapperForm").addEventListener("submit", async (event) => {
-    event.preventDefault(); 
+document
+.getElementById("updateRapperForm")
+.addEventListener("submit", async (event) => {
+    event.preventDefault();
 
-    const formData = new FormData(event.target); 
-    const rapperId = localStorage.getItem("rapperId"); 
+    const formData = new FormData(event.target);
+    const rapperId = queryParams.rapperId;
 
     if (rapperId) {
-        try {
-            const response = await fetch(`https://localhost:44389/api/Rapper/UpdateTheRapperByID/${rapperId}`, {
-                method: "PUT", 
-                body: formData,
-            });
-
-            if (response.ok) {
-                alert("Rapper details updated successfully");
-            } else {
-                alert("Failed to update rapper details. Please try again.");
-            }
-        } catch (error) {
-            console.error("Error updating rapper data:", error);
-            alert("An error occurred while updating the rapper details");
+    try {
+        const response = await fetch(
+        `https://localhost:44389/api/Rapper/UpdateTheRapperByID/${rapperId}`,
+        {
+            method: "PUT",
+            body: formData,
         }
+        );
+
+        if (response.ok) {
+        alert("Rapper details updated successfully");
+        } else {
+        alert("Failed to update rapper details. Please try again.");
+        }
+    } catch (error) {
+        console.error("Error updating rapper data:", error);
+        alert("An error occurred while updating the rapper details");
+    }
     } else {
-        alert("No rapper ID found. Please select a rapper to edit.");
+    alert("No rapper ID found. Please select a rapper to edit.");
     }
 });

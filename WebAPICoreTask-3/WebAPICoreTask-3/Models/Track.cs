@@ -17,5 +17,9 @@ public partial class Track
 
     public string? TrackImage { get; set; }
 
+    public virtual ICollection<PlayListTrack> PlayListTracks { get; set; } = new List<PlayListTrack>();
+
     public virtual Rapper? Rapper { get; set; }
+
+    public virtual ICollection<User> Users { get; set; } = new List<User>();
 }

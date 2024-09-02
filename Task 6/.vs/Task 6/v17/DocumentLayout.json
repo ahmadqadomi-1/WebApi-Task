@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\dtos\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\dtos\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\dtos\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\dtos\\categoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|c:\\users\\orange\\desktop\\webapicore\\webapi-task\\task 6\\task 6\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC6B79D0-24E9-4D04-B65D-4788572525AF}|Task 6\\Task 6.csproj|solutionrelative:task 6\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\DTOs\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "Task 6\\DTOs\\ProductRequest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\DTOs\\ProductRequest.cs",
+              "RelativeToolTip": "Task 6\\DTOs\\ProductRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:47:49.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Task 6\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Models\\Product.cs",
+              "RelativeToolTip": "Task 6\\Models\\Product.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:47:20.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\DTOs\\CategoryRequest.cs",
+              "RelativeDocumentMoniker": "Task 6\\DTOs\\CategoryRequest.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\DTOs\\CategoryRequest.cs",
+              "RelativeToolTip": "Task 6\\DTOs\\CategoryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:29:13.742Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Task 6\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Task 6\\Controllers\\ProductsController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowB0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T00:41:05.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Task 6\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Task 6\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwD0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T00:40:29.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Task 6\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Models\\Category.cs",
+              "RelativeToolTip": "Task 6\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:29:20.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\appsettings.json",
+              "RelativeDocumentMoniker": "Task 6\\appsettings.json",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\appsettings.json",
+              "RelativeToolTip": "Task 6\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-01T00:29:29.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Program.cs",
+              "RelativeDocumentMoniker": "Task 6\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Program.cs",
+              "RelativeToolTip": "Task 6\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T00:28:56.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Models\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Task 6\\Models\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\WebApiCore\\WebApi-Task\\Task 6\\Task 6\\Models\\MyDbContext.cs",
+              "RelativeToolTip": "Task 6\\Models\\MyDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T00:28:52.578Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

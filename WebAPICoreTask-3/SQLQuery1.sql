@@ -1,5 +1,6 @@
 use APITASK3;
 GO
+------------------------------------------------------Break------------------------------------------------------!
 CREATE TABLE Rapper (
     RapperID int identity(1,1) primary key,
     RapperName varchar(225),
@@ -12,8 +13,7 @@ VALUES
 ('Illiam', 'Illiam.jpg'),
 ('ShabJdeed', 'ShabJdeed.jpg'),
 ('TheSynaptik', 'Synop.jpg');
-
-
+------------------------------------------------------Break------------------------------------------------------!
 CREATE TABLE Track (
     TrackID int identity(1,1) primary key,
     TrackName varchar(225), 
@@ -59,7 +59,68 @@ VALUES
 ('Qamarhen', 'Love', '3:48', 5, 'Qamarhen .jpg'),
 ('Radi', 'Calmness', '3:50', 5, 'Radi .jpg'),
 ('AlTawafan', 'JustRestartTheSong', '3:06', 5, 'TheSynaptik.jpg');
+------------------------------------------------------Break------------------------------------------------------!
+CREATE TABLE Users (
+UserID int identity(1,1) primary key,
+Username Varchar (255),
+Password Varchar (255),
+Email Varchar (255),
+RapperID int,
+TrackID int,
+ FOREIGN KEY (RapperID) REFERENCES Rapper(RapperID),
+  FOREIGN KEY (TrackID) REFERENCES Track(TrackID)
+);
+INSERT INTO Users (Username, Password, Email, RapperID, TrackID) 
+VALUES 
+('john_doe', 'password123', 'john.doe@example.com', 1, 1),
+('jane_smith', 'securePass!45', 'jane.smith@example.com', 2, 2),
+('mike_brown', 'Pass@2023', 'mike.brown@example.com', 3, 3),
+('susan_jones', 'Pa55w0rd!', 'susan.jones@example.com', 4, 4),
+('tom_white', 'White1234', 'tom.white@example.com', 5, 5);
+------------------------------------------------------Break------------------------------------------------------!
+CREATE TABLE PlayList (
+    PlayListID INT IDENTITY(1,1) PRIMARY KEY,
+    UserID INT UNIQUE,
+    CONSTRAINT FK_UserCart FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+INSERT INTO PlayList (UserID)
+VALUES 
+(1), 
+(2), 
+(3), 
 
+(5); 
+------------------------------------------------------Break------------------------------------------------------!
+CREATE TABLE PlayListTracks (
+    PlayListTracksID INT IDENTITY(1,1) PRIMARY KEY,
+    PlayListID INT,
+    TrackID INT,
+    Quantity INT NOT NULL,
+    CONSTRAINT FK_PlayList FOREIGN KEY (PlayListID) REFERENCES PlayList(PlayListID),
+    CONSTRAINT FK_Track FOREIGN KEY (TrackID) REFERENCES Track(TrackID),
+    UNIQUE (PlayListID, TrackID)
+);
 
+INSERT INTO PlayListTracks (PlayListID, TrackID, Quantity)
+VALUES 
+(1, 1, 1),
+(1, 2, 2),
+(1, 3, 3), --
+(2, 4, 4),
+(2, 5, 5),
+(2, 6, 6), --
+(3, 7, 7),
+(3, 8, 8),
+(3, 9, 9),--
+(4, 10, 10),
+(4, 11, 11),
+(4, 12, 12),--
+(5, 13, 13),
+(5, 14, 14),
+(5, 15, 15);
+------------------------------------------------------Break------------------------------------------------------!
 select * from Rapper;
 select * from Track;
+select * from Users;
+select * from PlayList;
+select * from PlayListTracks;
