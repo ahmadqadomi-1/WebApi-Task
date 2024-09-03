@@ -2,11 +2,11 @@ async function getAllProducts() {
     var id = localStorage.getItem("productId");
     let url = `https://localhost:44338/api/Products/GetAllProductsForOneCategory/${id}`;
 
-    try {
-    let response = await fetch(url);
-    if (!response.ok) {
-        throw new Error("Network response was not ok");
-    }
+
+
+
+    let response = await fetch (url);
+
 
     let data = await response.json();
     let tableBody = document.getElementById("ProductTableBody");
@@ -22,25 +22,22 @@ async function getAllProducts() {
                 <td>${Product.categoryId}</td>
                 <td>${Product.productId}</td>
                 <td><button onclick="Details(${Product.productId})" class="btn btn-primary" >Details</button></td>
-                <td><button onclick="PlayList(${Product.productId})" class="btn btn-primary">Add To Playlist</button></td>
+                <td><button onclick="Cart(${Product.productId})" class="btn btn-primary">Add To Cart</button></td>
             `;
 
         tableBody.appendChild(row);
     });
-    } catch (error) {
-    console.error("Error fetching data:", error);
-    }
+    
+
+// function Details(id) {
+//     localStorage.setItem("productId", id);
+//     window.location.href = "../Details/Details.html";
+// }
+
+function Cart(button) {
+    let GetId = button.value;
+    localStorage.setItem("productId", GetId);
+    window.location.href = "../Cart/Cart.html";
 }
-
-function Details(id) {
-    localStorage.setItem("trackId", id);
-    window.location.href = "../Details/Details.html";
 }
-
-  // function PlayList(button) {
-  //   let GetId = button.value;
-  //   localStorage.setItem("trackId", GetId);
-  //   window.location.href = "../PlayList/PlayList.html";
-  // }
-
 getAllProducts();

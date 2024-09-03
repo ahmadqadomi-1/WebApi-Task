@@ -9,17 +9,13 @@ public partial class User
 
     public string? Username { get; set; }
 
-    public string? Password { get; set; }
+    public byte[]? PasswordHash { get; set; }
+
+    public byte[]? PasswordSalt { get; set; }
 
     public string? Email { get; set; }
 
-    public int? ProductId { get; set; }
-
-    public int? CategoryId { get; set; }
-
     public virtual Cart? Cart { get; set; }
 
-    public virtual Category? Category { get; set; }
-
-    public virtual Product? Product { get; set; }
+    public virtual ICollection<UserRole> UserRoles { get; set; } = new List<UserRole>();
 }

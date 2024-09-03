@@ -136,3 +136,10 @@ C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\obj\Debug\net8.0\re
 C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\obj\Debug\net8.0\Task 6.pdb
 C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\obj\Debug\net8.0\Task 6.genruntimeconfig.cache
 C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\obj\Debug\net8.0\ref\Task 6.dll
+C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Orange\Desktop\WebApiCore\WebApi-Task\Task 6\Task 6\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

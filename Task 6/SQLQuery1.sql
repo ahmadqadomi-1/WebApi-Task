@@ -88,3 +88,61 @@ SELECT * FROM Products;
 SELECT * FROM Users;
 SELECT * FROM Carts;
 SELECT * FROM CartItems;
+------------------------------------------------------Break------------------------------------------------------!
+ALTER TABLE Carts DROP CONSTRAINT FK_UserCart;
+GO
+------------------------------------------------------Break------------------------------------------------------!
+ALTER TABLE CartItems DROP CONSTRAINT FK_Cart;
+GO
+------------------------------------------------------Break------------------------------------------------------!
+DROP TABLE IF EXISTS Carts;
+GO
+------------------------------------------------------Break------------------------------------------------------!
+DROP TABLE IF EXISTS Users;
+GO
+------------------------------------------------------Break------------------------------------------------------!
+CREATE TABLE Users (
+    UserID INT IDENTITY(1,1) PRIMARY KEY,
+    Username VARCHAR(60),
+    PasswordHash VARBINARY(64),  
+    PasswordSalt VARBINARY(32),  
+    Email VARCHAR(255)
+);
+GO
+------------------------------------------------------Break------------------------------------------------------!
+CREATE TABLE UserRoles (
+    UserID INT,
+    Role NVARCHAR(50),
+    CONSTRAINT PK_UserRoles PRIMARY KEY (UserID, Role),
+    CONSTRAINT FK_UserRole_User FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+INSERT INTO UserRoles (UserID, Role)
+VALUES
+(1, 'Admin'),
+(2, 'Client');
+select * from UserRoles;
+GO
+------------------------------------------------------Break------------------------------------------------------!
+CREATE TABLE Carts (
+    CartID INT IDENTITY(1,1) PRIMARY KEY,
+    UserID INT UNIQUE,
+    CONSTRAINT FK_UserCart FOREIGN KEY (UserID) REFERENCES Users(UserID)
+);
+GO
+------------------------------------------------------Break------------------------------------------------------!
+DROP TABLE IF EXISTS CartItems;
+GO
+------------------------------------------------------Break------------------------------------------------------!
+CREATE TABLE CartItems (
+    CartItemID INT IDENTITY(1,1) PRIMARY KEY,
+    CartID INT,
+    ProductID INT,
+    Quantity INT NOT NULL,
+    CONSTRAINT FK_Cart FOREIGN KEY (CartID) REFERENCES Carts(CartID),
+    CONSTRAINT FK_Product FOREIGN KEY (ProductID) REFERENCES Products(ProductID),
+    UNIQUE (CartID, ProductID)
+);
+------------------------------------------------------Break------------------------------------------------------!
+ALTER TABLE Users 
+ALTER COLUMN PasswordSalt VARBINARY(MAX);
+GO

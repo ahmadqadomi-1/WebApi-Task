@@ -25,17 +25,19 @@ public partial class MyDbContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<UserRole> UserRoles { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DESKTOP-3O6RHJJ;Database=APITASK4;Trusted_Connection=True;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server= DESKTOP-3O6RHJJ;Database= APITASK4;Trusted_Connection=True;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Cart>(entity =>
         {
-            entity.HasKey(e => e.CartId).HasName("PK__Carts__51BCD797F47843FB");
+            entity.HasKey(e => e.CartId).HasName("PK__Carts__51BCD7973FADBE7C");
 
-            entity.HasIndex(e => e.UserId, "UQ__Carts__1788CCAD78EFFEE7").IsUnique();
+            entity.HasIndex(e => e.UserId, "UQ__Carts__1788CCADEFB96E40").IsUnique();
 
             entity.Property(e => e.CartId).HasColumnName("CartID");
             entity.Property(e => e.UserId).HasColumnName("UserID");
@@ -47,9 +49,9 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<CartItem>(entity =>
         {
-            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B2AB35F5250");
+            entity.HasKey(e => e.CartItemId).HasName("PK__CartItem__488B0B2A2520D1C9");
 
-            entity.HasIndex(e => new { e.CartId, e.ProductId }, "UQ__CartItem__9AFC1BF867111C1B").IsUnique();
+            entity.HasIndex(e => new { e.CartId, e.ProductId }, "UQ__CartItem__9AFC1BF8142A983B").IsUnique();
 
             entity.Property(e => e.CartItemId).HasColumnName("CartItemID");
             entity.Property(e => e.CartId).HasColumnName("CartID");
@@ -91,28 +93,29 @@ public partial class MyDbContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCAC231A52DF");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__1788CCACBBFA9F14");
 
             entity.Property(e => e.UserId).HasColumnName("UserID");
-            entity.Property(e => e.CategoryId).HasColumnName("CategoryID");
             entity.Property(e => e.Email)
                 .HasMaxLength(255)
                 .IsUnicode(false);
-            entity.Property(e => e.Password)
-                .HasMaxLength(255)
-                .IsUnicode(false);
-            entity.Property(e => e.ProductId).HasColumnName("ProductID");
+            entity.Property(e => e.PasswordHash).HasMaxLength(64);
             entity.Property(e => e.Username)
-                .HasMaxLength(255)
+                .HasMaxLength(60)
                 .IsUnicode(false);
+        });
 
-            entity.HasOne(d => d.Category).WithMany(p => p.Users)
-                .HasForeignKey(d => d.CategoryId)
-                .HasConstraintName("FK_CategoryID_User");
+        modelBuilder.Entity<UserRole>(entity =>
+        {
+            entity.HasKey(e => new { e.UserId, e.Role });
 
-            entity.HasOne(d => d.Product).WithMany(p => p.Users)
-                .HasForeignKey(d => d.ProductId)
-                .HasConstraintName("FK_ProductID_User");
+            entity.Property(e => e.UserId).HasColumnName("UserID");
+            entity.Property(e => e.Role).HasMaxLength(50);
+
+            entity.HasOne(d => d.User).WithMany(p => p.UserRoles)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_UserRole_User");
         });
 
         OnModelCreatingPartial(modelBuilder);

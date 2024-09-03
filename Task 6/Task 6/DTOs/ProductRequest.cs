@@ -13,5 +13,6 @@ namespace Task_6.DTOs
         public int? CategoryId { get; set; }
 
         public IFormFile? ProductImage { get; set; }
+        
     }
 }

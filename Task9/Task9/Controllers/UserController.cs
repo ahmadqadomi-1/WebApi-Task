@@ -55,30 +55,24 @@ namespace Task9.Controllers
         public IActionResult Register([FromForm] DTOsUser user)
         {
 
-            if (user == null)
-            {
-                return BadRequest("invalid input");
-            }
 
-            if (user.Password != null)
-            {
+            byte[] hash, salt;
+            passwordhash.CreatePasswordHash(user.Password, out hash, out salt);
 
-                var user1 = new User
-                {
-                    Username = user.Username,
-                    Password = Hashing(user.Password),
-                    Email = user.Email,
-                };
+            var user1 = new User
+            {
+                Username = user.Username,
+                Email = user.Email,
+                    PasswordHash = hash,
+
+                PasswordSalt = salt
+            };
 
                 _db.Users.Add(user1);
                 _db.SaveChanges();
                 return Ok(user1);
 
-            }
-            else
-            {
-                return BadRequest("password cant be null");
-            }
+            
         }
 
 
@@ -86,31 +80,13 @@ namespace Task9.Controllers
         public IActionResult Login([FromQuery] LoginDTO user)
         {
 
-            if (user == null)
-            {
-
-                return BadRequest("input can't be null");
-
-            }
-
             var record = _db.Users.FirstOrDefault(u => u.Username == user.Username);
 
-            if (record != null && user.Password != null)
+            if (record != null || !passwordhash.VerifyPasswordHash(user.Password, record.PasswordHash, record.PasswordSalt))
             {
-
-                var input_pass = Hashing(user.Password);
-                var real_pass = record.Password;
-
-                if (real_pass != input_pass)
-                {
-                    return BadRequest("uncorrect password");
-                }
-                else
-                {
-                    return Ok(record);
-                }
+                return Ok("login success");
             }
-            return BadRequest("input is null");
+            return Ok("username or password is wrong");
 
         }
     }

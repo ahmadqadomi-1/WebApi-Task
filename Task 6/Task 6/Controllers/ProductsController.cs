@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Task_6.DTOs;
 using Task_6.Models;
@@ -14,6 +15,7 @@ namespace Task_6.Controllers
             _db = db;
         }
         [HttpGet("GetAllProducts")]
+        
         public IActionResult First()
         {
             var tra = _db.Products.ToList();
